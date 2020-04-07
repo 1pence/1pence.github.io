@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>璇璇生日快乐ovo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--<meta itemprop="image" content="./images/fenxiang.png" />-->
@@ -19,7 +20,7 @@
             margin: 0;
         }
         a {
-            color: #ebf7f4;
+            color: #42635A;
         }
         .body--ready {
             background: -webkit-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
@@ -96,10 +97,7 @@
     <br/>
     <span id="span_dt_dt"></span>
 </p>
-<p class="text" style="color: #F75804;">
-    lulala
-    <br/>
-</p>
+
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
@@ -126,7 +124,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("2020.4.15|亲爱的|璇璇|生日快乐|又老一岁|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("2020.4.15|祝|亲爱的|张滋和|小朋友|生日快乐|又老一岁|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -580,8 +578,14 @@
     S.init();
 </script>
 <!--//音乐可改-->
-<audio autoplay="autoplay" loop="loop">
-    <source src="https://github.com/1pence/1pence.github.io/blob/master/music/New%20World.mp3?raw=true" type="audio/mpeg">
+<body>
+	<div style="display:none";class="music">
+	<audio controls="controls" autoplay="autoplay" loop=-1>
+ 	<source src="https://github.com/1pence/1pence.github.io/blob/master/music/New%20World.mp3?raw=true" type="audio/mpeg" />
+	</audio>
+	</div>
+</body> 
+
 </audio>
 </body>
 </html>
